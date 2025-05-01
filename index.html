@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Barkiré Douramane Moussa</title>
+    <!-- Liaisons CSS (Tailwind, FontAwesome, Google Font) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Lien vers ton fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-800">
+
+  <!-- Section Profil/Héros -->
+  <section id="profil" class="bg-gradient-to-b from-indigo-600 to-blue-500 text-white py-20 md:py-24">
+    <div class="container mx-auto px-4 text-center max-w-4xl">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 tracking-tight">Barkiré Douramane Moussa</h1>
+      <p class="text-lg md:text-xl text-indigo-100 mb-6">
+        Étudiant en Master 1 Mathématiques Appliquées Statistiques - Parcours ERDS<br>
+        Université de Bordeaux
+      </p>
+      <p class="text-base text-indigo-200 leading-relaxed mb-10 max-w-2xl mx-auto">
+        Solide formation en mathématiques appliquées, statistiques, économétrie et finance quantitative. Passionné par l’analyse de données et la modélisation des risques économiques et financiers, je suis à la recherche d’un stage pour approfondir mes compétences en data science et gestion des risques.
+      </p>
+      <div class="flex justify-center items-center space-x-6 mb-10">
+        <a href="mailto:doudoubarkire98@gmail.com" target="_blank" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Envoyer un email">
+          <i class="fas fa-envelope text-xl"></i>
+        </a>
+        <a href="tel:+33751184648" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Appeler">
+          <i class="fas fa-phone text-xl"></i>
+        </a>
+        <a href="https://linkedin.com/in/Barkiré-Douramane-Moussa" target="_blank" rel="noopener noreferrer" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Profil LinkedIn">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="https://github.com/barkire273" target="_blank" rel="noopener noreferrer" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Profil GitHub">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+      </div>
+
+      <div class="mt-12 flex flex-wrap justify-center items-center gap-4">
+         <a href="Projets/cv_barkire_douramane.pdf" target="_blank"
+             class="inline-flex items-center bg-white text-indigo-600 font-semibold py-2.5 px-6 rounded-md shadow-md hover:bg-gray-50 hover:text-indigo-700 transform hover:-translate-y-0.5 transition duration-200 ease-in-out">
+             Consulter mon CV
+             <i class="fas fa-eye ml-2"></i>
+         </a>
+         <a href="projets.html" class="nav-button">
+             <i class="fas fa-project-diagram mr-2"></i> Projets Académiques
+         </a>
+         <a href="experience.html" class="nav-button">
+             <i class="fas fa-briefcase mr-2"></i> Expérience Professionnelle
+         </a>
+         <a href="competences.html" class="nav-button">
+             <i class="fas fa-cogs mr-2"></i> Compétences Techniques
+         </a>
+         <a href="formation.html" class="nav-button">
+             <i class="fas fa-graduation-cap mr-2"></i> Formation
+         </a>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

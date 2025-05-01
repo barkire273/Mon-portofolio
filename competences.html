@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Compétences</title>
+
+  <!-- Liaisons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <!-- Lien vers ton fichier CSS externe -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-100 min-h-screen text-gray-800">
+
+    <!-- Bouton Retour à l'accueil -->
+    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
+        <a href="index.html" class="text-sm text-blue-600 hover:underline">
+            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
+        </a>
+    </div>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="container mx-auto px-4 pb-16 pt-8 md:pt-10 md:pb-20">
+
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Compétences Techniques & Linguistiques</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto">
+
+            <!-- Carte: Langages -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover">
+                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                     <i class="fas fa-code mr-3 text-xl text-blue-600"></i>Langages
+                 </h3>
+                 <div class="flex flex-wrap gap-2">
+                     <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Python</span>
+                     <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">R</span>
+                     <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">VBA</span>
+                 </div>
+            </div>
+
+            <!-- Carte: Outils Data Science -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover lg:col-span-2"> 
+                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                     <i class="fas fa-cogs mr-3 text-xl text-green-600"></i>Outils & Librairies Data Science
+                 </h3>
+                 <div class="flex flex-wrap gap-2">
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Pandas</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">NumPy</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Matplotlib</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Seaborn</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Scikit-learn</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Statsmodels</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">NetworkX</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">dplyr</span>
+                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">ggplot2</span>
+                 </div>
+            </div>
+
+             <!-- Carte: Machine Learning -->
+             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover lg:col-span-2">  
+                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                     <i class="fas fa-brain mr-3 text-xl text-indigo-600"></i>Machine Learning & Modélisation
+                 </h3>
+                 <div class="flex flex-wrap gap-2">
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Régression logistique</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Modèle de Poisson</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">KNN (K-Nearest Neighbors)</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Arbres de décision</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Random Forest</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">XGBoost / CatBoost</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">K-Means</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">CAH</span>
+                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">ACP</span>
+                 </div>
+            </div>
+
+            <!-- Carte: Langues -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover">
+                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                     <i class="fas fa-language mr-3 text-xl text-red-600"></i>Langues
+                 </h3>
+                 <div class="space-y-2">
+                    <p class="text-sm"><span class="font-medium text-gray-700">Français :</span> Langue Maternelle</p>
+                    <p class="text-sm"><span class="font-medium text-gray-700">Anglais :</span> Niveau B1 (Intermédiaire)</p>
+                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

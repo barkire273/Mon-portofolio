@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Formations</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Bouton Retour à l'accueil ajouté en haut -->
+    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
+        <a href="index.html" class="text-sm text-blue-600 hover:underline">
+            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
+        </a>
+    </div>
+
+    <div class="container mx-auto px-4 py-8">
+        <!-- Section Formation -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Formation</h2>
+
+            <!-- Master -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
+                <div class="flex items-start gap-6">
+                    <img src="./assets/logo-iref.png" alt="IREF" class="w-24 h-24">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">
+                            Master 1 Mathématiques Appliquées Statistiques
+                        </h2>
+                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <!-- Cours -->
+                            <div>
+                                <h3 class="font-semibold text-lg mb-3 text-blue-600">
+                                    <i class="fas fa-book mr-2"></i>Cours Principaux
+                                </h3>
+                                <ul class="list-disc pl-6 space-y-2 text-gray-600">
+                                    <li>Économétrie (Big Data, séries temporelles)</li>
+                                    <li>Théorie financière et marchés</li>
+                                    <li>Analyse des réseaux </li>
+                                    <li>Optimisation stochastique</li>
+                                    <li>Informatique</li>
+                                </ul>
+                            </div>
+
+                            <!-- Langages -->
+                            <div>
+                                <h3 class="font-semibold text-lg mb-3 text-green-600">
+                                    <i class="fas fa-code mr-2"></i>Langages de Programmation
+                                </h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
+                                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">R</span>
+                                    <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">VBA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Licence 3 -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
+                <div class="flex items-start gap-6">
+                    <img src="./assets/logo-bordeaux.png" alt="Bordeaux" class="w-20 h-20">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">
+                            Licence 3 Stratégie et Politiques Économiques
+                        </h3>
+                        <p class="text-gray-600 mb-4">2023-2024 - Université de Bordeaux</p>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>Analyse des politiques économiques</li>
+                            <li>Théorie des jeux</li>
+                            <li>Économétrie appliquée</li>
+                            <li>Statistiques inférentielles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bac -->
+            <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                <div class="flex items-start gap-6">
+                    <img src="./assets/logo-mariama.png" alt="Mariama" class="w-20 h-20">
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">
+                            Baccalauréat Scientifique
+                        </h3>
+                        <p class="text-gray-600">2018-2021 - Lycée Mariama, Niger</p>
+                        <span class="mt-2 inline-block px-3 py-1 bg-green-100 text-green-800 rounded-full">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="py-8">
+            <h2 class="text-3xl font-bold text-center mb-8">Certifications</h2>
+
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <!-- PIX -->
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="text-center">
+                        <img src="./assets/logo-pix.png" alt="PIX" class="h-20 w-20 mx-auto mb-4">
+                        <h3 class="text-xl font-bold mb-2">Certification PIX</h3>
+                        <div class="text-green-600 mb-4">
+                            <i class="fas fa-check-circle"></i> Validée en 2023
+                        </div>
+                        <a href="./assets/certification-pix.pdf" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+                            Voir la certification
+                        </a>
+                    </div>
+                </div>
+
+                <!-- AMF -->
+                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+                    <div class="text-center">
+                        <img src="./assets/amf_logo.png" alt="AMF" class="h-20 w-20 mx-auto mb-4">
+                        <h3 class="text-xl font-bold mb-2">Certification AMF</h3>
+                        <div class="text-blue-600 mb-4">
+                            <i class="fas fa-spinner"></i> En cours
+                        </div>
+                        <button class="bg-gray-300 cursor-not-allowed text-gray-600 font-medium py-2 px-4 rounded-lg" disabled>
+                            Indisponible
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

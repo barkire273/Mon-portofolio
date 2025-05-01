@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projets Académiques</title>
+
+    <!-- Liaisons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Lien vers ton fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-gray-100 min-h-screen text-gray-800">
+
+    <!-- Bouton Retour à l'accueil -->
+    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
+        <a href="index.html" class="text-sm text-blue-600 hover:underline">
+            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
+        </a>
+    </div>
+
+    <section id="projets" class="container mx-auto px-4 pb-16 pt-8 md:pt-10 md:pb-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Projets Académiques</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+
+            <!-- Projet 1: Gonorrhée -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_gonorrhee.png" alt="Aperçu analyse facteurs risque gonorrhée" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse des Facteurs de Risque - Gonorrhée</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Big Data</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Identification des facteurs prédominants et caractérisation des groupes à risque pour la gonorrhée via l'apprentissage automatique (régression logistique, arbres, KNN) et gestion du déséquilibre de classes (SMOTE).
+                </p>
+                <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scikit-learn</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Statsmodels</span>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Matplotlib/Seaborn</span>
+                    </div>
+                    <a href="Projets/rapport_gonorrhee.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                        Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projet 2: Risques Climatiques -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                 <img src="assets/apercu_climatique.jpg" alt="Aperçu analyse risques climatiques" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Risques Climatiques et Stabilité Financière</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Économie du Risque et de l’Assurance</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Analyse de l'impact des risques climatiques (physiques, transition) sur les décisions d'investissement, la valorisation d'actifs et les réponses des régulateurs (divulgation, stress tests).
+                </p>
+                 <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Analyse Économique</span>
+                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Finance</span>
+                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Revue de Littérature</span>
+                    </div>
+                    <a href="Projets/rapport_risques_climatiques.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                        Lire l'essai <i class="fas fa-book-open ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projet 3: Aversion à l'Ambigüité -->
+             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_ambiguite.png" alt="Aperçu mesure aversion ambiguïté" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Mesure de l'Aversion à l'Ambigüité</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Théorie de la Décision / Prévention</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Revue de littérature sur les approches de mesure de l'aversion à l'ambiguïté (expérimentales, économétriques) et comparaison de modèles (Gollier, Health) dans le contexte de la prévention.
+                </p>
+                 <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Théorie de la Décision</span>
+                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Économétrie</span>
+                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Robustesse</span>
+                    </div>
+                    <a href="Projets/rapport_aversion_ambiguite.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                         Lire l'essai <i class="fas fa-book-open ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Projet 4: Réseaux Scientifiques -->
+             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_reseaux.png" alt="Aperçu dynamiques collaboration scientifique" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Dynamiques de Collaboration Scientifique & Genre</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Analyse des Réseaux</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Analyse de l'évolution d'un réseau de collaboration scientifique avant/après une intervention politique, en étudiant la structure globale, les centralités, les communautés (Louvain) et l'homophilie de genre.
+                </p>
+                 <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">NetworkX</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Analyse de Réseaux</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Visualisation</span>
+                    </div>
+                    <a href="Projets/rapport_reseaux_scientifiques.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                        Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                 </div>
+            </div>
+
+             <!-- Projet 5: Systèmes Dynamiques -->
+             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_dynamiques.png" alt="Aperçu modélisation systèmes dynamiques" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Modélisation en Systèmes Dynamiques</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Systèmes Dynamiques</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Étude du contrôle optimal (PMP, HJB), des jeux différentiels (Open-Loop, Markov-Perfect) et lien avec les Mean Field Games dans un contexte de pollution environnementale.
+                </p>
+                 <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Contrôle Optimal</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Jeux Différentiels</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Mean Field Games</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Économie Mathématique</span>
+                    </div>
+                     <a href="Projets/rapport_systemes_dynamiques.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                         Lire l'essai <i class="fas fa-book-open ml-1"></i>
+                    </a>
+                 </div>
+            </div>
+
+            <!-- Projet 6: VBA Crédits Bancaires -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_vba.png" alt="Aperçu application VBA suivi crédits" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Application VBA de Suivi des Crédits Bancaires</h4>
+                 <p class="text-sm text-gray-600 mb-3">Cours : Programmation VBA</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Développement d'une application Excel/VBA pour la gestion et le suivi des crédits clients, incluant interface de saisie, validation des données et envoi automatisé de rappels via Outlook.
+                </p>
+                 <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">VBA</span>
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Excel</span>
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Microsoft Outlook</span>
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Automatisation</span>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="Projets/rapport_vba_credits.pdf" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                            Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                        <a href="Projets/application_credits_bancaires.xlsm" download class="inline-block bg-green-600 hover:bg-green-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                            Télécharger l'app (.xlsm) <i class="fas fa-file-excel ml-1"></i>
+                        </a>
+                    </div>
+                 </div>
+            </div>
+
+             <!-- Projet 7: Production Céréalière -->
+             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_cereales.png" alt="Aperçu analyse production céréalière" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse et Prédiction de la Production Céréalière</h4>
+                 <p class="text-sm text-gray-600 mb-3">Cours : Outils Informatiques Traitement Données</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Analyse de données agricoles mondiales et développement de modèles prédictifs (Régression Linéaire, Random Forest, CatBoost, XGBoost) avec interprétation SHAP.
+                </p>
+                 <div class="project-footer mt-auto">
+                     <div class="flex flex-wrap gap-2 mb-4">
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scikit-learn</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">XGBoost</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">CatBoost</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">SHAP</span>
+                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Jupyter</span>
+                    </div>
+                    <a href="Projets/rapport_production_cerealiere.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                        Voir l'analyse <i class="fas fa-chart-bar ml-1"></i>
+                    </a>
+                 </div>
+            </div>
+
+             <!-- Projet 8: Analyse Polluants (HTML) -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
+                <img src="assets/apercu_polluants.jpg" alt="Aperçu analyse multivariée polluants" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
+                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse Multivariée des Polluants Atmosphériques</h4>
+                <p class="text-sm text-gray-600 mb-3">Cours : Analyse de Données Multivariées</p>
+                <p class="text-gray-700 mb-6 text-sm">
+                    Exploration des relations entre paramètres climatiques et niveaux de pollution atmosphérique (données ATMO) via l'Analyse en Composantes Principales (ACP) et visualisation des interactions.
+                </p>
+                <div class="project-footer mt-auto">
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">R</span>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">R Markdown</span>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">ACP</span>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Analyse de Données</span>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Visualisation</span>
+                    </div>
+                    <a href="Projets/analyse_polluants_perigueux.html" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
+                        Voir l'analyse HTML <i class="fas fa-code ml-1"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
