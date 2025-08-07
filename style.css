@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -24,7 +28,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Styles pour la page Projets (si tu utilises les cartes) */
+/* Styles pour les cartes (utilisé sur Projets, Compétences, etc.) */
 .card-hover {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -39,9 +43,4 @@ body {
 }
 .project-footer {
   margin-top: auto;
-}
-
-/* Style pour la page Expérience (timeline) */
-.timeline-container > div:last-child .timeline-line {
-  display: none;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Formations</title>
+    <title>Portfolio - Formation</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 </head>
 <body class="bg-gray-50 min-h-screen">
 
-    <!-- Bouton Retour à l'accueil ajouté en haut -->
+    <!-- Bouton Retour à l'accueil -->
     <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
         <a href="index.html" class="text-sm text-blue-600 hover:underline">
             <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
@@ -23,79 +23,75 @@
 
     <div class="container mx-auto px-4 py-8">
         <!-- Section Formation -->
-        <section class="mb-12">
-            <h2 class="text-3xl font-bold text-center mb-8">Formation</h2>
+        <section id="formation" class="mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Formation</h2>
 
-            <!-- Master -->
+            <!-- Master 2 -->
             <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
-                <div class="flex items-start gap-6">
-                    <img src="./assets/logo-iref.png" alt="IREF" class="w-24 h-24">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">
-                            Master 1 Mathématiques Appliquées Statistiques
-                        </h2>
-                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
-                        <div class="grid md:grid-cols-2 gap-8">
-                            <!-- Cours -->
-                            <div>
-                                <h3 class="font-semibold text-lg mb-3 text-blue-600">
-                                    <i class="fas fa-book mr-2"></i>Cours Principaux
-                                </h3>
-                                <ul class="list-disc pl-6 space-y-2 text-gray-600">
-                                    <li>Économétrie (Big Data, séries temporelles)</li>
-                                    <li>Théorie financière et marchés</li>
-                                    <li>Analyse des réseaux </li>
-                                    <li>Optimisation stochastique</li>
-                                    <li>Informatique</li>
-                                </ul>
-                            </div>
-
-                            <!-- Langages -->
-                            <div>
-                                <h3 class="font-semibold text-lg mb-3 text-green-600">
-                                    <i class="fas fa-code mr-2"></i>Langages de Programmation
-                                </h3>
-                                <div class="flex flex-wrap gap-2">
-                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full">Python</span>
-                                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">R</span>
-                                    <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">VBA</span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="flex flex-col sm:flex-row items-start gap-6">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/logo-iref.png" alt="Université de Bordeaux" class="w-20 h-20">
                     </div>
-                </div>
-            </div>
-
-            <!-- Licence 3 -->
-            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
-                <div class="flex items-start gap-6">
-                    <img src="./assets/logo-bordeaux.png" alt="Bordeaux" class="w-20 h-20">
-                    <div>
+                    <div class="w-full">
+                        <p class="text-sm text-gray-500 mb-1">2025 – 2026</p>
                         <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Licence 3 Stratégie et Politiques Économiques
+                            Master 2 IREF – Ingénierie des Risques, Économie & Finance
                         </h3>
-                        <p class="text-gray-600 mb-4">2023-2024 - Université de Bordeaux</p>
-                        <ul class="list-disc pl-6 space-y-2">
-                            <li>Analyse des politiques économiques</li>
-                            <li>Théorie des jeux</li>
-                            <li>Économétrie appliquée</li>
-                            <li>Statistiques inférentielles</li>
+                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
+                        <h4 class="font-semibold text-gray-700 mb-3 text-base">
+                            <i class="fas fa-book-open mr-2 text-blue-600"></i>Modules spécialisés :
+                        </h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1.5 pl-2">
+                            <li>Value at Risk (VaR)</li>
+                            <li>Économétrie du Big Data</li>
+                            <li>Scoring & Risque de Crédit</li>
+                            <li>Gestion des Risques de Marché</li>
+                            <li>Finance & Risques Climatiques</li>
+                            <li>Actuariat</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Bac -->
-            <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
-                <div class="flex items-start gap-6">
-                    <img src="./assets/logo-mariama.png" alt="Mariama" class="w-20 h-20">
-                    <div>
+            <!-- Master 1 -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
+                 <div class="flex flex-col sm:flex-row items-start gap-6">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/logo-iref.png" alt="Université de Bordeaux" class="w-20 h-20">
+                    </div>
+                    <div class="w-full">
+                        <p class="text-sm text-gray-500 mb-1">2024 – 2025</p>
                         <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Baccalauréat Scientifique
+                            Master 1 IREF – Ingénierie des Risques, Économie & Finance
                         </h3>
-                        <p class="text-gray-600">2018-2021 - Lycée Mariama, Niger</p>
-                        <span class="mt-2 inline-block px-3 py-1 bg-green-100 text-green-800 rounded-full">
-                        </span>
+                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
+                        <h4 class="font-semibold text-gray-700 mb-3 text-base">
+                           <i class="fas fa-book mr-2 text-blue-600"></i>Modules clés :
+                        </h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1.5 pl-2">
+                           <li>Économétrie des Séries Temporelles</li>
+                           <li>Économétrie du Big Data 1</li>
+                           <li>Statistique Multidimensionnelle</li>
+                           <li>Théorie Financière</li>
+                           <li>Analyse des Réseaux</li>
+                           <li>Économie du Risque et de l'Assurance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Licence -->
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
+                 <div class="flex items-start gap-6">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/logo-bordeaux.png" alt="Université de Bordeaux" class="w-20 h-20">
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500 mb-1">2021 – 2024</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">
+                            Licence en Économie
+                        </h3>
+                        <p class="text-gray-600">Université de Bordeaux</p>
                     </div>
                 </div>
             </div>
