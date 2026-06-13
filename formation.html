@@ -1,138 +1,174 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Formation</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation — Barkiré Douramane Moussa</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body>
 
-    <!-- Bouton Retour à l'accueil -->
-    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
-        <a href="index.html" class="text-sm text-blue-600 hover:underline">
-            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
-        </a>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">BDM</a>
+    <button class="navbar-menu-btn" aria-label="Menu">☰</button>
+    <ul class="navbar-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Formation <span class="accent">& certifications</span></h1>
+  </div>
+
+  <section class="section" style="position:relative; overflow:hidden;">
+
+    <!-- Réseau en fond -->
+    <svg class="home-svg" viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <line x1="100" y1="50" x2="300" y2="150" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="300" y1="150" x2="500" y2="100" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="500" y1="100" x2="700" y2="180" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="700" y1="180" x2="880" y2="130" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="880" y1="130" x2="1100" y2="80" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="1100" y1="80" x2="1250" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.15"/>
+      <line x1="950" y1="250" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="950" y1="250" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="1050" y1="450" x2="980" y2="650" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="1050" y1="450" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="800" y1="380" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="650" y1="480" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="500" y1="450" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <circle cx="100" cy="50" r="4" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="300" cy="150" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="500" cy="100" r="5" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="700" cy="180" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="880" cy="130" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="1100" cy="80" r="6" fill="#7c5cfc" opacity="0.5"/>
+      <circle cx="950" cy="250" r="12" fill="#7c5cfc" opacity="0.6"/>
+      <circle cx="1250" cy="300" r="8" fill="#a78bfa" opacity="0.45"/>
+      <circle cx="1050" cy="450" r="10" fill="#7c5cfc" opacity="0.55"/>
+      <circle cx="800" cy="380" r="7" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="650" cy="480" r="6" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="500" cy="450" r="6" fill="#a78bfa" opacity="0.35"/>
+      <circle cx="980" cy="650" r="6" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="1200" cy="580" r="7" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="250" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+    </svg>
+
+    <!-- DIPLÔMES -->
+    <div class="timeline" style="position:relative; z-index:1;">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Sep. 2025 – Sep 2026</div>
+          <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.5rem;">
+            <img src="./assets/logo-iref.png" alt="IREF" style="width:40px; height:40px; object-fit:contain;">
+            <div class="timeline-title">Master 2 IREF: Ingénierie des Risques, Économie & Finance</div>
+          </div>
+          <div class="timeline-org">Université de Bordeaux · Mathématiques appliquées & Statistique · Parcours ERDS</div>
+          <div class="pills">
+            <span class="pill pill-purple">Value at Risk</span>
+            <span class="pill pill-purple">Économétrie Big Data 2</span>
+            <span class="pill pill-purple">Scoring & Risque crédit</span>
+            <span class="pill pill-purple">Gestion des Risques de Marché</span>
+            <span class="pill pill-purple">Finance & Risques Climatiques</span>
+            <span class="pill pill-purple">Actuariat</span>
+            <span class="pill pill-purple">Dynamics of Networks</span>
+            <span class="pill pill-purple">Big Data Tools for Economists</span>
+            <span class="pill pill-purple">Environnement prudentiel</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">Sep. 2024 – Août 2025</div>
+          <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.5rem;">
+            <img src="./assets/logo-iref.png" alt="IREF" style="width:40px; height:40px; object-fit:contain;">
+            <div class="timeline-title">Master 1 IREF: Ingénierie des Risques, Économie & Finance</div>
+          </div>
+          <div class="timeline-org">Université de Bordeaux · Mathématiques appliquées & Statistique · Parcours ERDS</div>
+          <div class="pills">
+            <span class="pill pill-purple">Statistiques Inférentielles & Économétrie</span>
+            <span class="pill pill-purple">Statistique Multidimensionnelle</span>
+            <span class="pill pill-purple">Outils informatiques traitement données</span>
+            <span class="pill pill-purple">Économétrie Séries Temporelles</span>
+            <span class="pill pill-purple">Économétrie Big Data 1</span>
+            <span class="pill pill-purple">VBA & Applications</span>
+            <span class="pill pill-purple">Analyse des Réseaux</span>
+            <span class="pill pill-purple">Outils IA pour économistes</span>
+            <span class="pill pill-purple">Économie du Risque & Assurance</span>
+            <span class="pill pill-purple">Théorie Financière</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2021 – 2024</div>
+          <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.5rem;">
+            <img src="./assets/logo-bordeaux.png" alt="Bordeaux" style="width:40px; height:40px; object-fit:contain;">
+            <div class="timeline-title">Licence d'Économie</div>
+          </div>
+          <div class="timeline-org">Université de Bordeaux · Analyse économique & statistique appliquée</div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="container mx-auto px-4 py-8">
-        <!-- Section Formation -->
-        <section id="formation" class="mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Formation</h2>
+    <!-- CERTIFICATIONS -->
+    <div class="section-tag reveal" style="margin-bottom:1.5rem; margin-top:3rem; position:relative; z-index:1;"> Certifications</div>
+    <div class="certs-grid reveal" style="position:relative; z-index:1;">
 
-            <!-- Master 2 -->
-            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
-                <div class="flex flex-col sm:flex-row items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <img src="./assets/logo-iref.png" alt="Université de Bordeaux" class="w-20 h-20">
-                    </div>
-                    <div class="w-full">
-                        <p class="text-sm text-gray-500 mb-1">2025 – 2026</p>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Master 2 IREF – Ingénierie des Risques, Économie & Finance
-                        </h3>
-                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
-                        <h4 class="font-semibold text-gray-700 mb-3 text-base">
-                            <i class="fas fa-book-open mr-2 text-blue-600"></i>Modules spécialisés :
-                        </h4>
-                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1.5 pl-2">
-                            <li>Value at Risk (VaR)</li>
-                            <li>Économétrie du Big Data</li>
-                            <li>Scoring & Risque de Crédit</li>
-                            <li>Gestion des Risques de Marché</li>
-                            <li>Finance & Risques Climatiques</li>
-                            <li>Actuariat</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="cert-card">
+        <img src="./assets/logo-nvidia.png" alt="NVIDIA" style="width:44px; height:44px; object-fit:contain; border-radius:8px; flex-shrink:0;">
+        <div style="flex:1;">
+          <div class="cert-name">Fundamentals of Deep Learning</div>
+          <div class="cert-org">NVIDIA · Décembre 2025</div>
+          <a href="assets/My Learning _ NVIDIA.pdf" target="_blank" class="btn btn-secondary" style="margin-top:0.8rem; font-size:0.78rem; padding:0.4rem 1rem;">
+            <i class="fas fa-eye"></i> Voir la certification
+          </a>
+        </div>
+      </div>
 
-            <!-- Master 1 -->
-            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
-                 <div class="flex flex-col sm:flex-row items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <img src="./assets/logo-iref.png" alt="Université de Bordeaux" class="w-20 h-20">
-                    </div>
-                    <div class="w-full">
-                        <p class="text-sm text-gray-500 mb-1">2024 – 2025</p>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Master 1 IREF – Ingénierie des Risques, Économie & Finance
-                        </h3>
-                        <p class="text-gray-600 mb-4">Université de Bordeaux</p>
-                        <h4 class="font-semibold text-gray-700 mb-3 text-base">
-                           <i class="fas fa-book mr-2 text-blue-600"></i>Modules clés :
-                        </h4>
-                        <ul class="list-disc list-inside text-gray-600 text-sm space-y-1.5 pl-2">
-                           <li>Économétrie des Séries Temporelles</li>
-                           <li>Économétrie du Big Data 1</li>
-                           <li>Statistique Multidimensionnelle</li>
-                           <li>Théorie Financière</li>
-                           <li>Analyse des Réseaux</li>
-                           <li>Économie du Risque et de l'Assurance</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="cert-card">
+        <img src="./assets/amf_logo.png" alt="AMF" style="width:44px; height:44px; object-fit:contain; border-radius:8px; flex-shrink:0;">
+        <div style="flex:1;">
+          <div class="cert-name">Certification AMF</div>
+          <div class="cert-org">Autorité des Marchés Financiers · Nov. 2025</div>
+          <a href="assets/Att_CAMF_Barkiré DOURAMANE MOUSSA.pdf" target="_blank" class="btn btn-secondary" style="margin-top:0.8rem; font-size:0.78rem; padding:0.4rem 1rem;">
+            <i class="fas fa-eye"></i> Voir la certification
+          </a>
+        </div>
+      </div>
 
-            <!-- Licence -->
-            <div class="bg-white rounded-xl shadow-lg p-8 mb-8 card-hover">
-                 <div class="flex items-start gap-6">
-                    <div class="flex-shrink-0">
-                        <img src="./assets/logo-bordeaux.png" alt="Université de Bordeaux" class="w-20 h-20">
-                    </div>
-                    <div>
-                        <p class="text-sm text-gray-500 mb-1">2021 – 2024</p>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">
-                            Licence en Économie
-                        </h3>
-                        <p class="text-gray-600">Université de Bordeaux</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+      <div class="cert-card">
+        <img src="./assets/logo-pix.png" alt="PIX" style="width:44px; height:44px; object-fit:contain; border-radius:8px; flex-shrink:0;">
+        <div style="flex:1;">
+          <div class="cert-name">Certification PIX</div>
+          <div class="cert-org">PIX · 2023</div>
+          <a href="assets/certification-pix.pdf" target="_blank" class="btn btn-secondary" style="margin-top:0.8rem; font-size:0.78rem; padding:0.4rem 1rem;">
+            <i class="fas fa-eye"></i> Voir la certification
+          </a>
+        </div>
+      </div>
 
-        <!-- Certifications -->
-        <section class="py-8">
-            <h2 class="text-3xl font-bold text-center mb-8">Certifications</h2>
-
-            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                <!-- PIX -->
-                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
-                    <div class="text-center">
-                        <img src="./assets/logo-pix.png" alt="PIX" class="h-20 w-20 mx-auto mb-4">
-                        <h3 class="text-xl font-bold mb-2">Certification PIX</h3>
-                        <div class="text-green-600 mb-4">
-                            <i class="fas fa-check-circle"></i> Validée en 2023
-                        </div>
-                        <a href="./assets/certification-pix.pdf" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
-                            Voir la certification
-                        </a>
-                    </div>
-                </div>
-
-                <!-- AMF -->
-                <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
-                    <div class="text-center">
-                        <img src="./assets/amf_logo.png" alt="AMF" class="h-20 w-20 mx-auto mb-4">
-                        <h3 class="text-xl font-bold mb-2">Certification AMF</h3>
-                        <div class="text-blue-600 mb-4">
-                            <i class="fas fa-spinner"></i> En cours
-                        </div>
-                        <button class="bg-gray-300 cursor-not-allowed text-gray-600 font-medium py-2 px-4 rounded-lg" disabled>
-                            Indisponible
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
 
-    <script src="script.js" defer></script>
+  </section>
+
+  <footer>
+    <p>© 2026 <span>Barkiré Douramane Moussa</span> · Paris, France</p>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

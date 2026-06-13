@@ -1,214 +1,338 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Projets Académiques</title>
-
-    <!-- Liaisons CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- Lien vers ton fichier CSS externe -->
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets — Barkiré Douramane Moussa</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 min-h-screen text-gray-800">
+<body>
 
-    <!-- Bouton Retour à l'accueil -->
-    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
-        <a href="index.html" class="text-sm text-blue-600 hover:underline">
-            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
-        </a>
-    </div>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">BDM</a>
+    <button class="navbar-menu-btn" aria-label="Menu">☰</button>
+    <ul class="navbar-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="projets" class="container mx-auto px-4 pb-16 pt-8 md:pt-10 md:pb-20">
-        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Projets Académiques</h2>
+  <!-- EN-TÊTE -->
+  <div class="page-header">
+    <h1>Mes projets <span class="accent">académiques</span></h1>
+  </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+  <!-- GRILLE PROJETS -->
+  <section class="section">
+    <div class="projects-grid">
+        <!-- Réseau en fond -->
+    <svg class="home-svg" viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <!-- Liens -->
+        <line x1="100" y1="50" x2="300" y2="150" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="100" y1="50" x2="200" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="300" y1="150" x2="500" y2="100" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="300" y1="150" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="100" x2="700" y2="180" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="500" y1="100" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="700" y1="180" x2="880" y2="130" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="700" y1="180" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="150" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="720" y1="200" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="950" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="1100" y2="80" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1100" y1="80" x2="1250" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.15"/>
+        <line x1="1100" y1="80" x2="1300" y2="120" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1100" y2="350" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1250" y1="300" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1250" y1="300" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="500" y1="450" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="450" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="650" y1="480" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="650" y1="480" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="800" y1="380" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="980" y2="650" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1100" y1="350" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1300" y2="700" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="1050" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="860" y1="600" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="400" y1="600" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="250" y1="600" x2="150" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="1300" y1="120" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1050" y1="750" x2="800" y2="780" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="800" y1="780" x2="600" y2="720" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="600" y1="720" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <!-- Noeuds -->
+        <circle cx="100" cy="50" r="4" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="300" cy="150" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="500" cy="100" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="700" cy="180" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="200" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="400" cy="300" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="600" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="450" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="500" cy="450" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="650" cy="480" r="6" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="250" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="400" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="860" cy="600" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="750" r="4" fill="#c4b5fd" opacity="0.25"/>
+        <circle cx="600" cy="720" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="800" cy="780" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="880" cy="130" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="720" cy="200" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="800" cy="380" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="80" r="6" fill="#7c5cfc" opacity="0.5"/>
+        <circle cx="950" cy="250" r="12" fill="#7c5cfc" opacity="0.6"/>
+        <circle cx="1250" cy="300" r="8" fill="#a78bfa" opacity="0.45"/>
+        <circle cx="1050" cy="450" r="10" fill="#7c5cfc" opacity="0.55"/>
+        <circle cx="980" cy="650" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1200" cy="580" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1300" cy="120" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1380" cy="420" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="350" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1300" cy="700" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="1050" cy="750" r="5" fill="#c4b5fd" opacity="0.28"/>
+      </svg>
 
-            <!-- Projet 1: Gonorrhée -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_gonorrhee.png" alt="Aperçu analyse facteurs risque gonorrhée" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse des Facteurs de Risque - Gonorrhée</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Big Data</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Identification des facteurs prédominants et caractérisation des groupes à risque pour la gonorrhée via l'apprentissage automatique (régression logistique, arbres, KNN) et gestion du déséquilibre de classes (SMOTE).
-                </p>
-                <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
-                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
-                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scikit-learn</span>
-                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Statsmodels</span>
-                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Matplotlib/Seaborn</span>
-                    </div>
-                    <a href="Projets/rapport_gonorrhee.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                        Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Projet 2: Risques Climatiques -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                 <img src="assets/apercu_climatique.jpg" alt="Aperçu analyse risques climatiques" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Risques Climatiques et Stabilité Financière</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Économie du Risque et de l’Assurance</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Analyse de l'impact des risques climatiques (physiques, transition) sur les décisions d'investissement, la valorisation d'actifs et les réponses des régulateurs (divulgation, stress tests).
-                </p>
-                 <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Analyse Économique</span>
-                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Finance</span>
-                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Revue de Littérature</span>
-                    </div>
-                    <a href="Projets/rapport_risques_climatiques.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                        Lire l'essai <i class="fas fa-book-open ml-1"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Projet 3: Aversion à l'Ambigüité -->
-             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_ambiguite.png" alt="Aperçu mesure aversion ambiguïté" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Mesure de l'Aversion à l'Ambigüité</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Théorie de la Décision / Prévention</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Revue de littérature sur les approches de mesure de l'aversion à l'ambiguïté (expérimentales, économétriques) et comparaison de modèles (Gollier, Health) dans le contexte de la prévention.
-                </p>
-                 <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Théorie de la Décision</span>
-                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Économétrie</span>
-                         <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Robustesse</span>
-                    </div>
-                    <a href="Projets/rapport_aversion_ambiguite.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                         Lire l'essai <i class="fas fa-book-open ml-1"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Projet 4: Réseaux Scientifiques -->
-             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_reseaux.png" alt="Aperçu dynamiques collaboration scientifique" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Dynamiques de Collaboration Scientifique & Genre</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Analyse des Réseaux</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Analyse de l'évolution d'un réseau de collaboration scientifique avant/après une intervention politique, en étudiant la structure globale, les centralités, les communautés (Louvain) et l'homophilie de genre.
-                </p>
-                 <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">NetworkX</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Analyse de Réseaux</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Visualisation</span>
-                    </div>
-                    <a href="Projets/rapport_reseaux_scientifiques.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                        Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
-                    </a>
-                 </div>
-            </div>
-
-             <!-- Projet 5: Systèmes Dynamiques -->
-             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_dynamiques.png" alt="Aperçu modélisation systèmes dynamiques" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Modélisation en Systèmes Dynamiques</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Systèmes Dynamiques</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Étude du contrôle optimal (PMP, HJB), des jeux différentiels (Open-Loop, Markov-Perfect) et lien avec les Mean Field Games dans un contexte de pollution environnementale.
-                </p>
-                 <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Contrôle Optimal</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Jeux Différentiels</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Mean Field Games</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Économie Mathématique</span>
-                    </div>
-                     <a href="Projets/rapport_systemes_dynamiques.pdf" target="_blank" class="inline-block bg-gray-600 hover:bg-gray-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                         Lire l'essai <i class="fas fa-book-open ml-1"></i>
-                    </a>
-                 </div>
-            </div>
-
-            <!-- Projet 6: VBA Crédits Bancaires -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_vba.png" alt="Aperçu application VBA suivi crédits" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Application VBA de Suivi des Crédits Bancaires</h4>
-                 <p class="text-sm text-gray-600 mb-3">Cours : Programmation VBA</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Développement d'une application Excel/VBA pour la gestion et le suivi des crédits clients, incluant interface de saisie, validation des données et envoi automatisé de rappels via Outlook.
-                </p>
-                 <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">VBA</span>
-                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Excel</span>
-                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Microsoft Outlook</span>
-                        <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-xs font-medium">Automatisation</span>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <a href="Projets/rapport_vba_credits.pdf" target="_blank" class="inline-block bg-purple-600 hover:bg-purple-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                            Voir le rapport <i class="fas fa-arrow-right ml-1"></i>
-                        </a>
-                        <a href="Projets/application_credits_bancaires.xlsm" download class="inline-block bg-green-600 hover:bg-green-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                            Télécharger l'app (.xlsm) <i class="fas fa-file-excel ml-1"></i>
-                        </a>
-                    </div>
-                 </div>
-            </div>
-
-             <!-- Projet 7: Production Céréalière -->
-             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_cereales.png" alt="Aperçu analyse production céréalière" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse et Prédiction de la Production Céréalière</h4>
-                 <p class="text-sm text-gray-600 mb-3">Cours : Outils Informatiques Traitement Données</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Analyse de données agricoles mondiales et développement de modèles prédictifs (Régression Linéaire, Random Forest, CatBoost, XGBoost) avec interprétation SHAP.
-                </p>
-                 <div class="project-footer mt-auto">
-                     <div class="flex flex-wrap gap-2 mb-4">
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Python</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Pandas</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scikit-learn</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">XGBoost</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">CatBoost</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">SHAP</span>
-                         <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Jupyter</span>
-                    </div>
-                    <a href="Projets/rapport_production_cerealiere.pdf" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                        Voir l'analyse <i class="fas fa-chart-bar ml-1"></i>
-                    </a>
-                 </div>
-            </div>
-
-             <!-- Projet 8: Analyse Polluants (HTML) -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-7 card-hover project-card-content">
-                <img src="assets/apercu_polluants.jpg" alt="Aperçu analyse multivariée polluants" class="w-full h-40 object-cover object-center rounded-lg mb-4 shadow-sm">
-                <h4 class="font-bold text-lg md:text-xl mb-2 text-gray-900">Analyse Multivariée des Polluants Atmosphériques</h4>
-                <p class="text-sm text-gray-600 mb-3">Cours : Analyse de Données Multivariées</p>
-                <p class="text-gray-700 mb-6 text-sm">
-                    Exploration des relations entre paramètres climatiques et niveaux de pollution atmosphérique (données ATMO) via l'Analyse en Composantes Principales (ACP) et visualisation des interactions.
-                </p>
-                <div class="project-footer mt-auto">
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">R</span>
-                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">R Markdown</span>
-                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">ACP</span>
-                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Analyse de Données</span>
-                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Visualisation</span>
-                    </div>
-                    <a href="Projets/analyse_polluants_perigueux.html" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition duration-200 ease-in-out">
-                        Voir l'analyse HTML <i class="fas fa-code ml-1"></i>
-                    </a>
-                </div>
-            </div>
-
+      <!-- Projet — Data Challenge CDC -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_cdc_climat.png" alt="Data Challenge CDC — Risques climatiques" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Finance et Risques Climatiques</div>
+          <h3>Data Challenge Caisse des Dépôts et Consignations</h3>
+          <p>Méthodologie d'analyse de l'exposition d'un portefeuille financier (99 actifs) aux risques climatiques physiques, inondations, sécheresse, feux de forêt, vagues de chaleur. Clustering K-Means, cartographies GeoPandas par horizons temporels, pondération sectorielle.</p>
+          <div class="pills">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">K-Means</span>
+            <span class="pill pill-purple">GeoPandas</span>
+            <span class="pill pill-purple">QGIS</span>
+            <span class="pill pill-purple">Clustering</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/CDC - Data Challenge.pdf" target="_blank" class="btn btn-primary">
+              Voir le rapport <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <script src="script.js" defer></script>
+      <!-- Projet — Attrition employés -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_attrition.png" alt="Prédiction attrition employés" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Machine Learning</div>
+          <h3>Prédiction de l'Attrition des Employés</h3>
+          <p>Dataset de 15 000 employés (cible déséquilibrée 82,5%/17,5%). Preprocessing, rééquilibrage SMOTE, comparaison de modèles, Random Forest, XGBoost, Bagging, KNN. Variable la plus importante : le salaire mensuel. Recommandations RH sur rémunération, formation et bien-être.</p>
+          <div class="pills">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">Scikit-learn</span>
+            <span class="pill pill-purple">XGBoost</span>
+            <span class="pill pill-purple">SMOTE</span>
+            <span class="pill pill-purple">Random Forest</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/Présentation Barkiré_Fanis.pdf" target="_blank" class="btn btn-primary">
+              Voir le rapport <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 1 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_gonorrhee.png" alt="Analyse gonorrhée" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Big Data</div>
+          <h3>Analyse des Facteurs de Risque — Gonorrhée</h3>
+          <p>ML supervisé (KNN, Random Forest, SMOTE) sur données épidémiologiques pour identifier les groupes à risque et les facteurs prédominants.</p>
+          <div class="pills">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">Scikit-learn</span>
+            <span class="pill pill-purple">Pandas</span>
+            <span class="pill pill-purple">SMOTE</span>
+            <span class="pill pill-purple">Statsmodels</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_gonorrhee.pdf" target="_blank" class="btn btn-primary">
+              Voir le rapport <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Projet 2 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_climatique.jpg" alt="Risques climatiques" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Économie du Risque et de l'Assurance</div>
+          <h3>Risques Climatiques et Stabilité Financière</h3>
+          <p>Analyse de l'impact des risques physiques et de transition sur les décisions d'investissement, la valorisation d'actifs et les réponses des régulateurs.</p>
+          <div class="pills">
+            <span class="pill pill-gray">Finance</span>
+            <span class="pill pill-green">ESG</span>
+            <span class="pill pill-gray">Revue de littérature</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_risques_climatiques.pdf" target="_blank" class="btn btn-secondary">
+              Lire l'essai <i class="fas fa-book-open"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 3 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_ambiguite.png" alt="Aversion ambiguïté" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Théorie de la Décision</div>
+          <h3>Mesure de l'Aversion à l'Ambiguïté</h3>
+          <p>Revue de littérature sur les approches expérimentales et économétriques. Comparaison des modèles Gollier et Heath dans le contexte de la prévention.</p>
+          <div class="pills">
+            <span class="pill pill-gray">Théorie de la décision</span>
+            <span class="pill pill-gray">Économétrie</span>
+            <span class="pill pill-gray">Robustesse</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_aversion_ambiguite.pdf" target="_blank" class="btn btn-secondary">
+              Lire l'essai <i class="fas fa-book-open"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 4 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_reseaux.png" alt="Réseaux scientifiques" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Analyse des Réseaux</div>
+          <h3>Dynamiques de Collaboration Scientifique & Genre</h3>
+          <p>310 chercheurs — centralités, détection de communautés Louvain, homophilie de genre avant et après une intervention de politique publique.</p>
+          <div class="pills">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">NetworkX</span>
+            <span class="pill pill-purple">Pandas</span>
+            <span class="pill pill-purple">Louvain</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_reseaux_scientifiques.pdf" target="_blank" class="btn btn-primary">
+              Voir le rapport <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 5 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_dynamiques.png" alt="Systèmes dynamiques" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Systèmes Dynamiques</div>
+          <h3>Modélisation en Systèmes Dynamiques</h3>
+          <p>Contrôle optimal (PMP, HJB), jeux différentiels Open-Loop et Markov-Perfect, lien avec les Mean Field Games — appliqués à la pollution environnementale.</p>
+          <div class="pills">
+            <span class="pill pill-gray">Contrôle optimal</span>
+            <span class="pill pill-gray">Jeux différentiels</span>
+            <span class="pill pill-gray">Mean Field Games</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_systemes_dynamiques.pdf" target="_blank" class="btn btn-secondary">
+              Lire l'essai <i class="fas fa-book-open"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 6 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_vba.png" alt="Application VBA" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Programmation VBA</div>
+          <h3>Application VBA de Suivi des Crédits Bancaires</h3>
+          <p>Interface Excel avec saisie, validation des données et envoi automatisé de rappels via Outlook pour la gestion des crédits clients.</p>
+          <div class="pills">
+            <span class="pill pill-yellow">VBA</span>
+            <span class="pill pill-yellow">Excel</span>
+            <span class="pill pill-yellow">Outlook</span>
+            <span class="pill pill-yellow">Automatisation</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_vba_credits.pdf" target="_blank" class="btn btn-primary">
+              Voir le rapport <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="Projets/application_credits_bancaires.xlsm" download class="btn btn-secondary">
+              Télécharger .xlsm <i class="fas fa-file-excel"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 7 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_cereales.png" alt="Production céréalière" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Outils Informatiques Traitement Données</div>
+          <h3>Analyse et Prédiction de la Production Céréalière</h3>
+          <p>Modèles prédictifs sur données agricoles mondiales — Régression, Random Forest, CatBoost, XGBoost — avec interprétation SHAP.</p>
+          <div class="pills">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">XGBoost</span>
+            <span class="pill pill-purple">CatBoost</span>
+            <span class="pill pill-blue">SHAP</span>
+            <span class="pill pill-purple">Scikit-learn</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/rapport_production_cerealiere.pdf" target="_blank" class="btn btn-primary">
+              Voir l'analyse <i class="fas fa-chart-bar"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 8 -->
+      <div class="project-card reveal">
+        <img src="assets/apercu_polluants.jpg" alt="Polluants atmosphériques" class="project-img">
+        <div class="project-body">
+          <div class="project-course">Analyse de Données Multivariées</div>
+          <h3>Analyse Multivariée des Polluants Atmosphériques</h3>
+          <p>ACP sur données ATMO de Périgueux — relations entre paramètres climatiques et niveaux de pollution atmosphérique avec visualisation des interactions.</p>
+          <div class="pills">
+            <span class="pill pill-green">R</span>
+            <span class="pill pill-green">R Markdown</span>
+            <span class="pill pill-green">ACP</span>
+            <span class="pill pill-green">Visualisation</span>
+          </div>
+          <div class="project-footer">
+            <a href="Projets/analyse_polluants_perigueux.html" target="_blank" class="btn btn-primary">
+              Voir l'analyse HTML <i class="fas fa-code"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 <span>Barkiré Douramane Moussa</span> · Paris, France</p>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

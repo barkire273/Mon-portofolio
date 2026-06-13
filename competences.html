@@ -3,109 +3,217 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Compétences</title>
-
-  <!-- Liaisons CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Compétences — Barkiré Douramane Moussa</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <!-- Lien vers ton fichier CSS externe -->
   <link rel="stylesheet" href="style.css">
-
 </head>
-<body class="bg-gray-100 min-h-screen text-gray-800">
+<body>
 
-    <!-- Bouton Retour à l'accueil -->
-    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
-        <a href="index.html" class="text-sm text-blue-600 hover:underline">
-            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
-        </a>
-    </div>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">BDM</a>
+    <button class="navbar-menu-btn" aria-label="Menu">☰</button>
+    <ul class="navbar-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- Section Compétences -->
-    <section id="competences" class="container mx-auto px-4 pb-16 pt-8 md:pt-10 md:pb-20">
+  <div class="page-header">
+    <h1>Compétences <span class="accent">& outils</span></h1>
+  </div>
 
-        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12 md:mb-16">Compétences Techniques & Linguistiques</h2>
+  <section class="section">
+    <div class="skills-grid">
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
-
-            <!-- Carte: Langages & Outils -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover">
-                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
-                     <i class="fas fa-code mr-3 text-xl text-blue-600"></i>Langages & Outils
-                 </h3>
-                 <div class="flex flex-wrap gap-2">
-                     <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Python</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">R</span>
-                     <span class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm font-medium">SQL</span>
-                     <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">VBA</span>
-                     <span class="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm font-medium">LaTeX</span>
-                 </div>
-            </div>
-
-            <!-- Carte: Finance Quantitative -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover lg:col-span-2">
-                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
-                     <i class="fas fa-chart-line mr-3 text-xl text-yellow-600"></i>Finance Quantitative
-                 </h3>
-                 <div class="flex flex-wrap gap-2">
-                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Modélisation VaR</span>
-                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Scoring de Crédit</span>
-                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Gestion des Risques</span>
-                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">Économétrie Financière</span>
-                 </div>
-            </div>
-
-             <!-- Carte: IA / Machine Learning -->
-             <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover lg:col-span-3">  
-                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
-                     <i class="fas fa-brain mr-3 text-xl text-indigo-600"></i>IA / Machine Learning
-                 </h3>
-                 <div class="flex flex-wrap gap-2">
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Analyse de Sentiment (ABSA)</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Modèles Transformers</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Fine-Tuning</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Régression Logistique</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Régression Linéaire</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">KNN</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Arbres de Décision</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">K-Means</span>
-                     <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-xs font-medium">Réseaux de Neurones</span>
-                 </div>
-            </div>
-            
-            <!-- Carte: Frameworks & Librairies -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover lg:col-span-2"> 
-                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
-                     <i class="fas fa-cogs mr-3 text-xl text-green-600"></i>Frameworks & Librairies
-                 </h3>
-                 <div class="flex flex-wrap gap-2">
-                     <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">PyTorch</span>
-                     <span class="px-3 py-1 bg-gray-200 text-gray-800 rounded-full text-xs font-medium">Hugging Face</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Scikit-learn</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Pandas</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">NumPy</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Matplotlib</span>
-                     <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Seaborn</span>
-                 </div>
-            </div>
-
-            <!-- Carte: Langues -->
-            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6 card-hover">
-                 <h3 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
-                     <i class="fas fa-language mr-3 text-xl text-red-600"></i>Langues
-                 </h3>
-                 <div class="space-y-2">
-                    <p class="text-sm"><span class="font-medium text-gray-700">Français :</span> Natif</p>
-                    <p class="text-sm"><span class="font-medium text-gray-700">Anglais :</span> Intermédiaire (B1)</p>
-                 </div>
-            </div>
-
+      <div class="card reveal" style="border-top: 3px solid var(--accent);">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">Machine Learning & IA</h3>
+        <div class="pills">
+          <span class="pill pill-purple">Régression logistique</span>
+          <span class="pill pill-purple">Random Forest</span>
+          <span class="pill pill-purple">KNN</span>
+          <span class="pill pill-purple">Réseaux de neurones</span>
+          <span class="pill pill-purple">K-Means</span>
+          <span class="pill pill-purple">SMOTE</span>
+          <span class="pill pill-purple">Arbres de décision</span>
+          <span class="pill pill-purple">XGBoost</span>
+          <span class="pill pill-purple">CatBoost</span>
         </div>
-    </section>
+      </div>
 
-    <script src="script.js" defer></script>
+      <div class="card reveal" style="border-top: 3px solid #059669;">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">NLP & Transformers</h3>
+        <div class="pills">
+          <span class="pill pill-green">XLM-RoBERTa</span>
+          <span class="pill pill-green">Fine-tuning</span>
+          <span class="pill pill-green">ABSA</span>
+          <span class="pill pill-green">Hugging Face</span>
+          <span class="pill pill-green">Tokenisation</span>
+          <span class="pill pill-green">Sentiment Analysis</span>
+          <span class="pill pill-green">NLP bilingue FR/EN</span>
+        </div>
+      </div>
+
+      <div class="card reveal" style="border-top: 3px solid #2563eb;">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">Langages</h3>
+        <div class="pills">
+          <span class="pill pill-blue">Python</span>
+          <span class="pill pill-blue">R</span>
+          <span class="pill pill-blue">SQL</span>
+          <span class="pill pill-blue">VBA</span>
+          <span class="pill pill-blue">LaTeX</span>
+        </div>
+      </div>
+      <!-- Réseau en fond -->
+    <svg class="home-svg" viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <!-- Liens -->
+        <line x1="100" y1="50" x2="300" y2="150" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="100" y1="50" x2="200" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="300" y1="150" x2="500" y2="100" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="300" y1="150" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="100" x2="700" y2="180" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="500" y1="100" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="700" y1="180" x2="880" y2="130" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="700" y1="180" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="150" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="720" y1="200" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="950" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="1100" y2="80" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1100" y1="80" x2="1250" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.15"/>
+        <line x1="1100" y1="80" x2="1300" y2="120" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1100" y2="350" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1250" y1="300" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1250" y1="300" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="500" y1="450" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="450" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="650" y1="480" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="650" y1="480" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="800" y1="380" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="980" y2="650" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1100" y1="350" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1300" y2="700" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="1050" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="860" y1="600" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="400" y1="600" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="250" y1="600" x2="150" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="1300" y1="120" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1050" y1="750" x2="800" y2="780" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="800" y1="780" x2="600" y2="720" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="600" y1="720" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <!-- Noeuds -->
+        <circle cx="100" cy="50" r="4" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="300" cy="150" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="500" cy="100" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="700" cy="180" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="200" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="400" cy="300" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="600" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="450" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="500" cy="450" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="650" cy="480" r="6" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="250" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="400" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="860" cy="600" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="750" r="4" fill="#c4b5fd" opacity="0.25"/>
+        <circle cx="600" cy="720" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="800" cy="780" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="880" cy="130" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="720" cy="200" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="800" cy="380" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="80" r="6" fill="#7c5cfc" opacity="0.5"/>
+        <circle cx="950" cy="250" r="12" fill="#7c5cfc" opacity="0.6"/>
+        <circle cx="1250" cy="300" r="8" fill="#a78bfa" opacity="0.45"/>
+        <circle cx="1050" cy="450" r="10" fill="#7c5cfc" opacity="0.55"/>
+        <circle cx="980" cy="650" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1200" cy="580" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1300" cy="120" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1380" cy="420" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="350" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1300" cy="700" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="1050" cy="750" r="5" fill="#c4b5fd" opacity="0.28"/>
+      </svg>
+
+      <div class="card reveal" style="border-top: 3px solid #d97706;">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">Finance & Risque</h3>
+        <div class="pills">
+          <span class="pill pill-yellow">VaR</span>
+          <span class="pill pill-yellow">Backtesting</span>
+          <span class="pill pill-yellow">IFRS9</span>
+          <span class="pill pill-yellow">Bâle II/III</span>
+          <span class="pill pill-yellow">PD/LGD/EAD</span>
+          <span class="pill pill-yellow">Scoring crédit</span>
+          <span class="pill pill-yellow">Stress tests</span>
+          <span class="pill pill-yellow">ESG</span>
+        </div>
+      </div>
+
+      <div class="card reveal" style="border-top: 3px solid #db2777;">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">Frameworks & Librairies</h3>
+        <div class="pills">
+          <span class="pill pill-purple">PyTorch</span>
+          <span class="pill pill-purple">Scikit-learn</span>
+          <span class="pill pill-purple">Pandas</span>
+          <span class="pill pill-purple">NumPy</span>
+          <span class="pill pill-purple">Matplotlib</span>
+          <span class="pill pill-purple">Seaborn</span>
+          <span class="pill pill-purple">NetworkX</span>
+          <span class="pill pill-purple">GeoPandas</span>
+        </div>
+      </div>
+
+      <div class="card reveal" style="border-top: 3px solid #6b7280;">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:.8rem;">Données & Bases</h3>
+        <div class="pills">
+          <span class="pill pill-gray">SQL</span>
+          <span class="pill pill-gray">NoSQL</span>
+          <span class="pill pill-gray">Bibliométrie</span>
+        </div>
+      </div>
+
+      <div class="card reveal" style="border-top: 3px solid var(--accent);">
+        <h3 style="font-family:'Syne',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:1.2rem;">Langues</h3>
+        <div style="margin-bottom: 1rem;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <span style="font-size:.88rem; font-weight:600; color:#fff;">Français</span>
+            <span style="font-size:.82rem; color:var(--muted);">Natif</span>
+          </div>
+          <div style="height:5px; background:rgba(255,255,255,0.1); border-radius:3px;">
+            <div style="height:100%; width:100%; background:var(--accent); border-radius:3px;"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:5px;">
+            <span style="font-size:.88rem; font-weight:600; color:#fff;">Anglais</span>
+            <span style="font-size:.82rem; color:var(--muted);">Intermédiaire</span>
+          </div>
+          <div style="height:5px; background:rgba(255,255,255,0.1); border-radius:3px;">
+            <div style="height:100%; width:55%; background:#c4b5fd; border-radius:3px;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 <span>Barkiré Douramane Moussa</span> · Paris, France</p>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

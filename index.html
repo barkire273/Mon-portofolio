@@ -1,69 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Barkiré Douramane Moussa</title>
-    <meta name="description" content="Portfolio de Barkiré Douramane Moussa, Analyste Quantitatif et Data Scientist spécialisé en modélisation du risque, NLP et Machine Learning. Découvrez mes projets et compétences.">
-    <!-- Liaisons CSS (Tailwind, FontAwesome, Google Font) -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- Lien vers ton fichier CSS externe -->
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barkiré Douramane Moussa — Data Scientist </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 min-h-screen text-gray-800">
+<body>
 
-  <!-- Section Profil/Héros -->
-  <section id="profil" class="bg-gradient-to-b from-indigo-600 to-blue-500 text-white py-20 md:py-24">
-    <div class="container mx-auto px-4 text-center max-w-4xl">
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3 tracking-tight">Barkiré Douramane Moussa</h1>
-      <p class="text-lg md:text-xl text-indigo-100 mb-6">
-        Recherche stage de fin d’études -Data science- 6 mois à partir du 1er mars 2026
-      </p>
-      <p class="text-base text-indigo-200 leading-relaxed mb-10 max-w-2xl mx-auto">
-        Finalisant un Master 2 en Mathématiques Appliquées et Statistique (parcours IREF– Ingénierie des Risques, Économie & Finance), j’ai développé une double expertise en modélisation du risque et en Data Science. Mon expérience pratique en NLP et en fine-tuning de modèles Transformers renforce mes compétences techniques. Je souhaite mettre à profit cette double compétence lors d’un stage en analyse quantitative, modélisation du risque économique ou financier ou encore en économétrie appliquée
-      </p>
-      <div class="flex justify-center items-center space-x-6 mb-10">
-        <a href="mailto:doudoubarkire98@gmail.com" target="_blank" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Envoyer un email">
-          <i class="fas fa-envelope text-xl"></i>
-        </a>
-        <a href="tel:+33751184648" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Appeler">
-          <i class="fas fa-phone text-xl"></i>
-        </a>
-        <a href="https://linkedin.com/in/Barkiré-Douramane-Moussa" target="_blank" rel="noopener noreferrer" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Profil LinkedIn">
-          <i class="fab fa-linkedin-in text-xl"></i>
-        </a>
-        <a href="https://github.com/barkire273" target="_blank" rel="noopener noreferrer" class="text-indigo-200 hover:text-white transition duration-200 icon-hover" aria-label="Profil GitHub">
-          <i class="fab fa-github text-xl"></i>
-        </a>
-      </div>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">BDM</a>
+    <button class="navbar-menu-btn" aria-label="Menu">☰</button>
+    <ul class="navbar-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-      <div class="mt-12 flex flex-wrap justify-center items-center gap-4">
-         <a href="Projets/cv_barkire_douramane.pdf" target="_blank"
-             class="inline-flex items-center bg-white text-indigo-600 font-semibold py-2.5 px-6 rounded-md shadow-md hover:bg-gray-50 hover:text-indigo-700 transform hover:-translate-y-0.5 transition duration-200 ease-in-out">
-             Consulter mon CV
-             <i class="fas fa-eye ml-2"></i>
-         </a>
-         <a href="projets.html" class="nav-button">
-             <i class="fas fa-project-diagram mr-2"></i> Projets Académiques
-         </a>
-         <a href="experience.html" class="nav-button">
-             <i class="fas fa-briefcase mr-2"></i> Expérience Professionnelle
-         </a>
-         <a href="competences.html" class="nav-button">
-             <i class="fas fa-cogs mr-2"></i> Compétences Techniques
-         </a>
-         <a href="formation.html" class="nav-button">
-             <i class="fas fa-graduation-cap mr-2"></i> Formation
-         </a>
-      </div>
+  <div class="home">
 
+    <!-- Réseau en fond -->
+    <svg class="home-svg" viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <!-- Liens -->
+      <line x1="100" y1="50" x2="300" y2="150" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="100" y1="50" x2="200" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="300" y1="150" x2="500" y2="100" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="300" y1="150" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="500" y1="100" x2="700" y2="180" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="500" y1="100" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="700" y1="180" x2="880" y2="130" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="700" y1="180" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="200" y1="250" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="200" y1="250" x2="150" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="400" y1="300" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="400" y1="300" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="600" y1="250" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="600" y1="250" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="720" y1="200" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="880" y1="130" x2="950" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="880" y1="130" x2="1100" y2="80" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="1100" y1="80" x2="1250" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.15"/>
+      <line x1="1100" y1="80" x2="1300" y2="120" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="950" y1="250" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="950" y1="250" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="950" y1="250" x2="1100" y2="350" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="1250" y1="300" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+      <line x1="1250" y1="300" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="150" y1="450" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="150" y1="450" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="500" y1="450" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="500" y1="450" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="650" y1="480" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="650" y1="480" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="800" y1="380" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="1050" y1="450" x2="980" y2="650" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="1050" y1="450" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+      <line x1="1100" y1="350" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="1200" y1="580" x2="1300" y2="700" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="1200" y1="580" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="980" y1="650" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="980" y1="650" x2="1050" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="860" y1="600" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <line x1="400" y1="600" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <line x1="250" y1="600" x2="150" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <line x1="1300" y1="120" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+      <line x1="1050" y1="750" x2="800" y2="780" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <line x1="800" y1="780" x2="600" y2="720" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <line x1="600" y1="720" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+      <!-- Noeuds -->
+      <circle cx="100" cy="50" r="4" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="300" cy="150" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="500" cy="100" r="5" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="700" cy="180" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="200" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="400" cy="300" r="6" fill="#a78bfa" opacity="0.35"/>
+      <circle cx="600" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="150" cy="450" r="5" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="500" cy="450" r="6" fill="#a78bfa" opacity="0.35"/>
+      <circle cx="650" cy="480" r="6" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="250" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+      <circle cx="400" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+      <circle cx="860" cy="600" r="5" fill="#c4b5fd" opacity="0.3"/>
+      <circle cx="150" cy="750" r="4" fill="#c4b5fd" opacity="0.25"/>
+      <circle cx="600" cy="720" r="5" fill="#c4b5fd" opacity="0.28"/>
+      <circle cx="800" cy="780" r="5" fill="#c4b5fd" opacity="0.28"/>
+      <circle cx="880" cy="130" r="6" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="720" cy="200" r="5" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="800" cy="380" r="7" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="1100" cy="80" r="6" fill="#7c5cfc" opacity="0.5"/>
+      <circle cx="950" cy="250" r="12" fill="#7c5cfc" opacity="0.6"/>
+      <circle cx="1250" cy="300" r="8" fill="#a78bfa" opacity="0.45"/>
+      <circle cx="1050" cy="450" r="10" fill="#7c5cfc" opacity="0.55"/>
+      <circle cx="980" cy="650" r="6" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="1200" cy="580" r="7" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="1300" cy="120" r="5" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="1380" cy="420" r="7" fill="#a78bfa" opacity="0.4"/>
+      <circle cx="1100" cy="350" r="6" fill="#c4b5fd" opacity="0.35"/>
+      <circle cx="1300" cy="700" r="5" fill="#c4b5fd" opacity="0.28"/>
+      <circle cx="1050" cy="750" r="5" fill="#c4b5fd" opacity="0.28"/>
+    </svg>
+
+    <!-- Contenu -->
+    <div class="home-top">
+      <div class="home-name">Barkiré Douramane Moussa</div>
+      <div class="home-role">Data Scientist </div>
     </div>
-  </section>
+
+    <div class="home-bottom">
+      <p class="home-desc">
+        Jeune diplômé d'un Master Data Science & Risques Économiques (Université de Bordeaux),
+        je recherche un poste en CDI / CDD en Data Science, Machine Learning ou IA à partir de
+        septembre 2026. Fort d'une double compétence data + finance et de deux expériences
+        pratiques (HCERES, BSE Bordeaux) en NLP, analyse de réseaux et fine-tuning de modèles
+        Transformers, je mets mes compétences  au service de projets à fort impact.
+      </p>
+      <div class="home-badge">
+        <span class="home-badge-dot"></span>
+        Disponible · CDI / CDD · Septembre 2026
+      </div>
+      <div class="home-actions">
+        <a href="assets/CV_barkiré_douramane_CDI_CDD_DATA_ML_IA.pdf" target="_blank" class="btn btn-primary">
+          <i class="fas fa-eye"></i> Consulter mon CV
+        </a>
+        <a href="https://github.com/barkire273" target="_blank" class="btn btn-ghost">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/barkire-douramane-moussa" target="_blank" class="btn btn-ghost">
+          <i class="fab fa-linkedin-in"></i> LinkedIn
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 <span>Barkiré Douramane Moussa</span> · Tous droits réservés</p>
+  </footer>
 
   <script src="script.js" defer></script>
 </body>

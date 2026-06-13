@@ -1,84 +1,166 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Expérience Professionnelle</title>
-
-    <!-- Liaisons CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- Lien vers ton fichier CSS externe -->
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expérience — Barkiré Douramane Moussa</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 min-h-screen text-gray-800">
+<body>
 
-    <!-- Bouton Retour à l'accueil -->
-    <div class="container mx-auto px-4 pt-6 md:pt-8 text-left">
-        <a href="index.html" class="text-sm text-blue-600 hover:underline">
-            <i class="fas fa-arrow-left mr-1"></i> Retour à l'accueil
-        </a>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">BDM</a>
+    <button class="navbar-menu-btn" aria-label="Menu">☰</button>
+    <ul class="navbar-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="experience.html">Expérience</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="formation.html">Formation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Expérience <span class="accent">professionnelle</span></h1>
+    
+  </div>
+    <!-- Réseau en fond -->
+    <svg class="home-svg" viewBox="0 0 1400 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <!-- Liens -->
+        <line x1="100" y1="50" x2="300" y2="150" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="100" y1="50" x2="200" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="300" y1="150" x2="500" y2="100" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="300" y1="150" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="100" x2="700" y2="180" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="500" y1="100" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="700" y1="180" x2="880" y2="130" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="700" y1="180" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="400" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="200" y1="250" x2="150" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="600" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="400" y1="300" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="720" y2="200" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="600" y1="250" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="720" y1="200" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="950" y2="250" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="880" y1="130" x2="1100" y2="80" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1100" y1="80" x2="1250" y2="300" stroke="#7c5cfc" stroke-width="1" opacity="0.15"/>
+        <line x1="1100" y1="80" x2="1300" y2="120" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="950" y1="250" x2="1100" y2="350" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1250" y1="300" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.12"/>
+        <line x1="1250" y1="300" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="150" y1="450" x2="500" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="500" y1="450" x2="650" y2="480" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="500" y1="450" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="650" y1="480" x2="800" y2="380" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="650" y1="480" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="800" y1="380" x2="1050" y2="450" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="980" y2="650" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1050" y1="450" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.1"/>
+        <line x1="1100" y1="350" x2="1200" y2="580" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1300" y2="700" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1200" y1="580" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="860" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="980" y1="650" x2="1050" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="860" y1="600" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="400" y1="600" x2="250" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="250" y1="600" x2="150" y2="750" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="1300" y1="120" x2="1380" y2="420" stroke="#7c5cfc" stroke-width="1" opacity="0.08"/>
+        <line x1="1050" y1="750" x2="800" y2="780" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="800" y1="780" x2="600" y2="720" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <line x1="600" y1="720" x2="400" y2="600" stroke="#7c5cfc" stroke-width="1" opacity="0.07"/>
+        <!-- Noeuds -->
+        <circle cx="100" cy="50" r="4" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="300" cy="150" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="500" cy="100" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="700" cy="180" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="200" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="400" cy="300" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="600" cy="250" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="450" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="500" cy="450" r="6" fill="#a78bfa" opacity="0.35"/>
+        <circle cx="650" cy="480" r="6" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="250" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="400" cy="600" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="860" cy="600" r="5" fill="#c4b5fd" opacity="0.3"/>
+        <circle cx="150" cy="750" r="4" fill="#c4b5fd" opacity="0.25"/>
+        <circle cx="600" cy="720" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="800" cy="780" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="880" cy="130" r="6" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="720" cy="200" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="800" cy="380" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="80" r="6" fill="#7c5cfc" opacity="0.5"/>
+        <circle cx="950" cy="250" r="12" fill="#7c5cfc" opacity="0.6"/>
+        <circle cx="1250" cy="300" r="8" fill="#a78bfa" opacity="0.45"/>
+        <circle cx="1050" cy="450" r="10" fill="#7c5cfc" opacity="0.55"/>
+        <circle cx="980" cy="650" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1200" cy="580" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1300" cy="120" r="5" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1380" cy="420" r="7" fill="#a78bfa" opacity="0.4"/>
+        <circle cx="1100" cy="350" r="6" fill="#c4b5fd" opacity="0.35"/>
+        <circle cx="1300" cy="700" r="5" fill="#c4b5fd" opacity="0.28"/>
+        <circle cx="1050" cy="750" r="5" fill="#c4b5fd" opacity="0.28"/>
+      </svg>
+
+  <section class="section">
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">1</div>
+        <div class="timeline-content">
+          <div class="timeline-date">Mars – Août 2026</div>
+          <div class="timeline-title">Stagiaire Data Scientist: Communautés scientifiques</div>
+          <div class="timeline-org">HCERES · Observatoire des Sciences et Techniques, Paris</div>
+          <ul>
+            <li>Pipeline IA de désambiguïsation d'auteurs sur corpus bibliométriques massifs</li>
+            <li>Analyse et visualisation de réseaux de collaboration  centralités, détection de communautés Louvain</li>
+            <li>Études quantitatives sur l'impact des politiques publiques sur la dynamique de recherche</li>
+            <li>Exploitation de bases structurées et NoSQL pour produire des indicateurs scientifiques</li>
+          </ul>
+          <div class="pills" style="margin-top: 1rem;">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">NetworkX</span>
+            <span class="pill pill-purple">Pandas</span>
+            <span class="pill pill-purple">NoSQL</span>
+            <span class="pill pill-purple">NLP</span>
+            <span class="pill pill-purple">Louvain</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">2</div>
+        <div class="timeline-content">
+          <div class="timeline-date">Juillet – Août 2025</div>
+          <div class="timeline-title">Stagiaire R&D NLP — Analyse de sentiment (ABSA)</div>
+          <div class="timeline-org">BSE · Bordeaux School of Economics, Université de Bordeaux</div>
+          <ul>
+            <li>Conception et livraison d'une solution end-to-end ABSA pour l'analyse de commentaires bilingues FR/EN à grande échelle</li>
+            <li>Fine-tuning de XLM-RoBERTa pour la classification de tokens (extraction d'aspects) et de séquences (sentiment)</li>
+            <li>Industrialisation du prétraitement textuel : nettoyage, anonymisation, structuration JSON</li>
+          </ul>
+          <div class="pills" style="margin-top: 1rem;">
+            <span class="pill pill-purple">Python</span>
+            <span class="pill pill-purple">PyTorch</span>
+            <span class="pill pill-purple">Hugging Face</span>
+            <span class="pill pill-purple">XLM-RoBERTa</span>
+            <span class="pill pill-purple">Pandas</span>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </section>
 
-    <section id="experience" class="container mx-auto px-4 pb-16 pt-8 md:pt-10 md:pb-20">
-        
-        <div class="text-center mb-12">
-            <span class="inline-block bg-blue-100 text-blue-600 p-3 rounded-full mb-4">
-                <i class="fas fa-briefcase text-2xl"></i>
-            </span>
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Expérience Professionnelle</h2>
-        </div>
+  <footer>
+    <p>© 2026 <span>Barkiré Douramane Moussa</span> · Paris, France</p>
+  </footer>
 
-        <div class="max-w-3xl mx-auto">
-            <!-- Carte d'expérience -->
-            <div class="bg-white rounded-xl shadow-lg p-7 card-hover border border-gray-200">
-                
-                <!-- En-tête de la carte -->
-                <div class="flex justify-between items-start mb-2">
-                    <h3 class="text-xl font-bold text-gray-800">
-                        Stagiaire R&D en Traitement Automatique du Langage (NLP)
-                    </h3>
-                    <span class="text-sm text-gray-500 font-medium flex-shrink-0 ml-4">Juillet – Août 2025</span>
-                </div>
-                <p class="text-base text-gray-600 mb-5">
-                    BSE - Bordeaux School of Economics (Université de Bordeaux)
-                </p>
-
-                <!-- Séparateur -->
-                <hr class="my-4 border-t border-gray-200">
-
-                <!-- Détails des missions -->
-                <ul class="space-y-3 text-gray-700">
-                    <li class="flex items-start">
-                        <i class="fas fa-check-circle text-blue-500 mt-1 mr-3"></i>
-                        <div>
-                            <strong>Développement d'un pipeline d'analyse de sentiment (ABSA) :</strong>
-                            <p class="text-sm text-gray-600">Conception et implémentation d'une solution end-to-end pour l'analyse de commentaires d'évaluation bilingues (FR/EN).</p>
-                        </div>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check-circle text-blue-500 mt-1 mr-3"></i>
-                        <div>
-                            <strong>Prétraitement de données textuelles :</strong>
-                            <p class="text-sm text-gray-600">Utilisation de scripts Python (Pandas) pour le nettoyage, l'anonymisation et la structuration de données brutes au format JSON.</p>
-                        </div>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-check-circle text-blue-500 mt-1 mr-3"></i>
-                        <div>
-                            <strong>Fine-tuning de modèles Transformers :</strong>
-                            <p class="text-sm text-gray-600">Spécialisation du modèle XLM-RoBERTa pour des tâches de classification de tokens (extraction d'aspects) et de séquences (sentiment).</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <script src="script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
